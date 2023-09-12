@@ -11,7 +11,7 @@ def timestamp():
 messages = [
     {
         "id": 1,
-        "author": "Eduard",
+        "author": "Andrew",
         "content": "Good evening dear sir",
         "channel": "general",
         "created_at": "2023-09-06T14:23:26.104Z",
@@ -59,6 +59,6 @@ if __name__ == '__main__':
 
 # curl command for testing:
 #  curl -X POST -H "Content-Type: application/json" -d '{
-#     "author": "Seb",
-#     "content": "Yo Yo Yo"
+#     "author": "Bobs Smith",
+#     "content": "How are you?"
 # }' http://pc:8080/general/messages
